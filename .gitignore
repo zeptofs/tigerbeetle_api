@@ -1,8 +1,8 @@
 /tigerbeetle_grpc_server
 /tigerbeetle_rest_server
 .task
-.*.env
-.env
+# .*.env
+# .env
 /bruno/environments/*.bru
 /build
 
