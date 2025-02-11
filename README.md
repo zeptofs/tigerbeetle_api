@@ -23,11 +23,20 @@ And get started by opening the `/bruno` directory in Bruno.
 $ brew install zig
 ```
 
+For Apple Silicon, run:
+
+```
+make release-darwin-arm64
+make release-run-darwin-arm64
+```
+
 Setup and run tigerbeetle in docker (optional)
 
 ```
 $ make docker-setup docker-start
 ```
+
+
 
 **3. Copy example config file**
 
